@@ -56,7 +56,7 @@ extern crate lodepng;
 pub mod filters;
 mod samples;
 mod images;
-mod fonts;
+pub mod fonts;
 
 pub use samples::{gen, by_name, Difficulty, CaptchaName};
 
